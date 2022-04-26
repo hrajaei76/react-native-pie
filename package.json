@@ -1,6 +1,6 @@
 {
   "name": "react-native-pie",
-  "version": "1.1.2",
+  "version": "1.0.0",
   "description": "a pie chart for react native",
   "main": "src/Pie.js",
   "scripts": {
@@ -8,21 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nihgwu/react-native-pie.git"
+    "url": "git+https://github.com/hrajaei76/react-native-pie.git"
   },
   "keywords": [
     "pie",
     "doughnut",
     "gauge",
     "chart",
-    "react native"
+    "react native",
+    "typescript"
   ],
-  "author": "Neo (nihgwu@live.com)",
+  "author": "hesam",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nihgwu/react-native-pie/issues"
+    "url": "https://github.com/hrajaei76/react-native-pie/issues"
   },
-  "homepage": "https://github.com/nihgwu/react-native-pie#readme",
+  "homepage": "https://github.com/hrajaei76/react-native-pie#readme",
   "peerDependencies": {
     "prop-types": "^15.6.0",
     "react": "*",
