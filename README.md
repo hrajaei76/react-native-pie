@@ -17,7 +17,7 @@ OR
 yarn add react-native-pie
 ```
 
-## For react-native-pie >= 1.1.0 install peer dependency
+## install peer dependency
 ```bash
 # NPM
 npm i --save @react-native-community/art
@@ -25,26 +25,6 @@ OR
 # Yarn
 yarn add @react-native-community/art
 ```
-
-## Migration from react-native-pie <= 0.6.2
-
-Please unlink react-native ART library
-
-## Linking module
-
-### Mostly automatic linking
-
-If `react-native` >= 0.60 && react-native-pie >= 1.1.0, the package will be linked automatically.
-
-### Manual linking for react-native-pie <= 0.6.2
-Link the ART library to your ReactNative project ([how to link a library](https://facebook.github.io/react-native/docs/linking-libraries-ios.html#content)). You'll find the React ART library in `node_modules/react-native/Libraries/ART/ART.xcodeproj`
-
-
-### React Native Version Support
-> **If you are using < `.45`, please install `react-native-pie` `v0.1.0` instead**   
-> `npm i --save react-native-pie@0.1.0`
-
-> **Please use >= `0.50.0-rc.0` otherwise there is a ring shape drawing issue with `react-native-pie`**
 
 ## Usage
 
