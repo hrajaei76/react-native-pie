@@ -144,7 +144,7 @@ const RoundDividers = ({
       for (let i = 0; i < dividerSize + 2; i++) {
         dividerArray.push(
           <ArcShape
-            key={index}
+            key={`DA-${i}_${index}`}
             dimensions={dimensions}
             color={backgroundColor}
             startAngle={
@@ -157,7 +157,7 @@ const RoundDividers = ({
         );
         dividerColorOverlayArray.push(
           <ArcShape
-            key={index}
+            key={`DCOA-${i}_${index}`}
             dimensions={dimensions}
             color={color}
             startAngle={
