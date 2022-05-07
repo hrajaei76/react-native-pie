@@ -1,5 +1,5 @@
 {
-  "name": "react-native-pie",
+  "name": "react-native-pie-phinix",
   "version": "1.0.0",
   "description": "a pie chart for react native",
   "main": "src/Pie.js",
@@ -18,7 +18,7 @@
     "react native",
     "typescript"
   ],
-  "author": "hesam",
+  "author": "hrajaei76",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hrajaei76/react-native-pie/issues"
